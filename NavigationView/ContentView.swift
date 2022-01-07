@@ -47,7 +47,7 @@ struct RightView: View {
                 .navigationBarTitle("back", displayMode: .inline)
                 .navigationBarHidden(true)
             }
-            .navigationViewStyle(.stack)
+            .navigationViewStyle(.stack) /// comment this line and TrailRow.onAppear is called once
         }
         .navigationBarTitle("Hiking Trails")
     }
